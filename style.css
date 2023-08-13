@@ -34,7 +34,7 @@
 
 .navbar-logo {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .navbar-logo img {
@@ -48,6 +48,14 @@
     font-weight: bold;
 }
 
+.back .navbar-nav .nav-item a{
+    color: black;
+    font-weight: bold;
+    padding: 30px;
+} 
+.back .navbar-nav .nav-item a :hover{
+  text-decoration: none;
+} 
 
 /* background section 1 */
 
@@ -145,4 +153,7 @@
     .row{
         padding: 0 20% 0 0%;
     }
+    /* .back .navbar-logo{
+
+    } */
 }  
