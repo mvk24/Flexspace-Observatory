@@ -1,0 +1,148 @@
+/* First navbar */
+
+.navbar-custom {
+    position: relative;
+    justify-content: flex-start;
+  }
+
+.color-ball {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.red-ball {
+    background-color: red;
+    opacity: 80%;
+}
+
+.yellow-ball {
+    background-color: yellow;
+    opacity: 80%;
+}
+
+.green-ball {
+    background-color: green;
+    opacity: 80%;
+}
+
+
+
+/* Second Navbar */
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    background-color: transparent;
+}
+
+.navbar-logo span {
+    font-weight: bold;
+}
+
+
+/* background section 1 */
+
+.back{
+    background-color: rgb(232, 227, 227);
+    padding-inline-start: 150px;
+    
+}
+.row .ls{
+    margin-top: 8%;
+}
+.row .rs{
+    margin-top: 3%;
+    margin-left: auto;
+    height: 90%;
+    right: 0;
+}
+.row h1{
+ font-size: 560%;
+ font-family:'Times New Roman';
+ color: black;
+}
+.row .btn{
+    background-color: rgb(247, 83, 23);
+    color: white;
+}
+
+
+
+/* topic 1 */
+
+.section {
+    /* padding: 40px; */
+    padding-inline-start: 150px;
+    margin-top:10%;
+}
+.section h6{
+    color: rgb(237, 58, 3);
+    font-weight: bold;
+}
+.ph{
+    font-family:'Gill Sans';
+    font-size:  250%;
+}
+
+
+
+/* services */
+.row .ser{
+    padding-inline-start: 280px;
+    margin-top: 25px;
+    margin-bottom: 10%;
+    right: 8%;
+}
+.row .card{
+    background-color: rgb(232, 227, 227);
+    height: 170%;
+    width: 110%;
+    border: none;
+}
+.row .texts{
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.row .texts p{
+    font-size: 100%;
+    color: rgb(100, 98, 98);
+}
+.row .ser img{
+    width: 350px;
+    height: 180px;
+    justify-content:right;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+
+}
+.row .ser .s2{
+    width: 80%;
+    height: 160px;
+ 
+    
+}
+
+
+
+/* responsive */
+
+@media only screen and (max-width: 600px) {
+    .row h1{
+        font-size: 2rem;
+        font-weight: 800;
+    }
+    
+    .row{
+        padding: 0 20% 0 0%;
+    }
+}  
