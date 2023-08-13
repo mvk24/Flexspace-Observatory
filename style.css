@@ -53,6 +53,9 @@
     font-weight: bold;
     padding: 30px;
 } 
+.navbar-nav{
+    margin: 0 10% 0 0;
+}
 .back .navbar-nav .nav-item a :hover{
   text-decoration: none;
 } 
@@ -65,10 +68,10 @@
     
 }
 .row .ls{
-    margin-top: 8%;
+    margin-top: 14%;
 }
 .row .rs{
-    margin-top: 3%;
+    margin-top: 8%;
     margin-left: auto;
     height: 90%;
     right: 0;
@@ -90,7 +93,7 @@
 .section {
     /* padding: 40px; */
     padding-inline-start: 150px;
-    margin-top:10%;
+    margin-top:15%;
 }
 .section h6{
     color: rgb(237, 58, 3);
@@ -137,8 +140,6 @@
 .row .ser .s2{
     width: 80%;
     height: 160px;
- 
-    
 }
 
 
@@ -146,13 +147,18 @@
 /* responsive */
 
 @media only screen and (max-width: 600px) {
+    
     .row h1{
-        font-size: 2rem;
-        font-weight: 800;
+        font-size: 3rem;
+        font-weight: lighter;
     }
     
     .row{
-        padding: 0 20% 0 0%;
+        padding: 20% 20% 0 0%;
+    }
+    .section {
+        padding-inline-start: 30px;
+        margin-top: 40%;
     }
     .row .ser{
         padding-inline-start: 80px;
@@ -171,11 +177,5 @@
     .row .ser .s2{
         width: 80%;
         height: 100px;
-    }
-    .back .navbar-logo{
-    position: relative;
-    /* margin: 0 20% 0 0; */
-    justify-content: flex-start;
-
     }
 }  
