@@ -22,6 +22,7 @@
 
 <!-- Navbar 2 - With Items -->
   <nav class="navbar navbar-expand-lg navbar-light">
+   <div class="container">
     <div class="navbar-logo">
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1kBXfw3NxSF2_5HkLY6Om1kORFPmmwSwoHeQddHLXd3jek3aW" fill="none" alt="Logo">
       <span>FLEXSPACE<br>OBSERVATORY</span>
@@ -29,7 +30,7 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    <div class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
       <ul class="navbar-nav ">
         <li class="nav-item">
           <a class="nav-link" href="#">About</a>
@@ -42,6 +43,7 @@
         </li>
       </ul>
     </div>
+   </div>
   </nav>
   
 
@@ -50,7 +52,7 @@
     <div class="ls col-md-6">
       <h1>Discover proptech trends & insights</h1><br>
       <p>Using data collected from 90+ countries and over 2500 workspaces, get <br> unparalleled insights into flexible working habits across the world.</p><br>
-      <button class="btn" href="#topic">Explore Topics<span>&nbsp; &#8595;</span></button>
+      <button class="btn" onclick="window.location.href='#topic';">Explore Topics<span>&nbsp; &#8595;</span></button>
     </div>
     
     <!-- Right Section with Image -->
@@ -69,8 +71,8 @@
 
 <!-- Services -->
 <div class="row">
-    <div class="ser col-md-6">
-        <div class="card card-big">
+    <div class="ser col-lg-6 col-md-6 col-sm-12 d-block">
+        <div class="card">
             <div class="texts">
                 <h3 class="head4 t-5">Global Analysis</h3>
                 <p class="text-sm color-gray">A look at the history and trends of coworking <br>and flexible workspaces.</p>
@@ -82,8 +84,8 @@
         </div>
     </div>
 
-    <div class="ser col-md-6">
-        <div class="card card-gray card-big" id="second">
+    <div class="ser col-lg-6 col-md-6 col-sm-12 d-block">
+        <div class="card">
             <div class="texts">
                 <header class="ph">Analysis Per Market</header>
                 <p class="text-sm color-gray">A comprehensive analysis of reservation <br> patterns in coworking and flex workspaces in <br> the US, UK and Spain.</p>
@@ -91,7 +93,7 @@
                 <span>&#8594;</span>
                 </a>
             </div>
-            <img class="s2" src="img/s2.png" sizes="100%" alt="image2" style="right: 40px;">
+            <img class="s2" src="img/s2.png" sizes="100%" alt="image2" style="right: 0px;">
         </div>
     </div>
 </div>

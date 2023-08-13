@@ -131,6 +131,7 @@
     position: absolute;
     bottom: 0;
     display: flex;
+    right: auto;
 
 }
 .row .ser .s2{
@@ -153,7 +154,28 @@
     .row{
         padding: 0 20% 0 0%;
     }
-    /* .back .navbar-logo{
+    .row .ser{
+        padding-inline-start: 80px;
+        padding-right: 55px;
+    }
+    .row .card{
+        width: 150%;
+        height: 200%;
 
-    } */
+    }
+    .row .ser img{
+        width: 250px;
+        height: 200px;
+        bottom: 10px;
+    }
+    .row .ser .s2{
+        width: 80%;
+        height: 100px;
+    }
+    .back .navbar-logo{
+    position: relative;
+    /* margin: 0 20% 0 0; */
+    justify-content: flex-start;
+
+    }
 }  
